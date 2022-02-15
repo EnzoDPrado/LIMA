@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(#065cfc, #6099da);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mord{
+    display: flex;
+    flex-direction: column;
+    padding-left: 95px;
+    z-index: 99;
+
+
+}
+
+a.text-mord{
+    text-align: left;
+    padding-left: 235px;
+
+}
+
+h1{
+    font-size:50px;
+    margin-top:20px;
+    margin-bottom:30px;
+    color:white;
+}
+
+h2{
+    font-size: 20px;
+    color:white;
+}
+
+.texto{
+    margin-left: 500px;
+    margin-right:500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-mord{
+    padding-right: 150px;
+
+}
+
+main a{
+    color:white;
+
+}
+
+.saiba iframe{
+    position: absolute;
+    left: 6%;
+    top: 42%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: blue;
+
+
+
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    padding-top:0;
+    height:100px;
+    margin-left:100px;
+
+}
+
+ul{
+    display:flex;
+    align-items: center;
+}
+
+
+
+header img{
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+    height:100px;
+    
+}
+
+header li{
+    list-style:none;
+    display:inline-block;
+    padding-right:50px;
+    font-size:20px;
+    color:white;
+
+}
+
+header ul{
+    text-align:right;
+    display:flex;
+    margin-right:100px;
+}
