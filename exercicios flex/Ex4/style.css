@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+nav{
+    background-color: blanchedalmond;
+    height:100vh;
+    flex-grow: 1;
+
+
+}
+
+main{
+    background-color: burlywood;
+    flex-grow: 3;
+    display: flex;
+}
+
+article{
+    flex-grow: 3;
+    background-color: chocolate;
+}
+
+aside{
+    flex-grow: 1;
+    background-color:honeydew;
+}
+
+footer{
+    background-color: cadetblue;
+    flex-grow: 1;
+
+}
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    height: 100vh;
+}

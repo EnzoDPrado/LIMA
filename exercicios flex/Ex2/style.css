@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: blue;
+    height:50px;
+    display:flex;
+    align-items: center;
+    flex-grow: 1;
+
+}
+
+
+
+nav{
+background-color:aqua;
+height: 80vh;
+flex-grow:1;
+}
+
+article{
+background-color: blueviolet;
+height: 80vh;
+flex-grow:1;
+}
+
+aside{
+background-color: bisque;
+height: 80vh;
+flex-grow: 1;
+}
+
+footer{
+background-color: brown;
+flex-grow: 1;
+}
+
+.meio{
+    display: flex;
+}
